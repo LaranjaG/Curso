@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Event Propagation</title>
+   <style>
+      a{
+         display: inline-block;
+         border: 1px solid black;
+         font-weight: bolder;
+         color: white;
+         margin-top: 85px;
+         margin-left: 45px;
+      }
+
+      #um{
+         width: 400px;
+         height: 400px;
+         background-color: darkcyan;
+      }
+      #dois{
+         width: 300px;
+         height: 300px;
+         background-color: purple;
+      }
+      #tres{
+         width: 200px;
+         height: 200px;
+         background-color: deeppink;
+      }
+   </style>
+</head>
+<body>
+   <div id="um" onclick="eventoUm">
+      <div id="dois"  onclick="eventoDois">
+         <div id="tres"  onclick="eventoTres">
+            <a id="linkar" href="http://www.google.com" target="_blank">Go To Google!</a>
+         </div>
+      </div>
+   </div>
+   <script src="propagacao.js"></script>
+</body>
+</html>

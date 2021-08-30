@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+        body{
+            font-family: times;
+        }
+
+        div#calculator{
+            border-radius: 20px;
+            width: 350px;
+            background-color: cadetblue;
+            padding: 20px;
+        }
+
+        div#keyboard{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+        }
+
+        button{
+            padding: 10px;
+            font-size: 20px;
+            font-family: times;  
+            border-radius: 10px; 
+           
+        }
+
+        button#divisao{
+            margin-left: 113% !important;
+            width: 100%;
+        }
+
+        button#resultado{
+            margin-left: 113% !important;
+            width: 100%;
+        }
+
+        button#numeroZero{
+            width: 212% !important;
+        }
+
+        div#display{
+            padding: 5px;
+            font-size: 30px;
+            text-align: right;
+            background-color: azure;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        input{
+            box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+        }
+    </style>
+
+</head>
+
+    <body>
+        <div id="calculator">
+            <div id="display"> 
+                <input id="inputCalculo" type="text" value="" readonly style="width: 45%; height: 15px; padding: 5px; margin-right: 7.5px; border-radius: 10px; text-align: right;">
+                <input id="inputValor" type="text" value="" readonly style="width: 90%; height: 35px; padding: 5px; margin-right: 7.5px; border-radius: 10px; text-align: right;">
+            </div>
+            
+            <div id="keyboard">
+                <button id="ac">AC</button>         <button id="c">Del</button>          <button id="portentagem">%</button> <button id="fatorar">!</button>
+                <button id="numeroUm">1</button>     <button id="numeroDois">2</button>  <button id="numeroTres">3</button>  <button id="mais">+</button>
+                <button id="numeroQuatro">4</button> <button id="numeroCinco">5</button> <button id="numeroSeis">6</button>  <button id="menos">-</button>
+                <button id="numeroSete">7</button>   <button id="numeroOito">8</button>  <button id="numeroNove">9</button>  <button id="multiplicacao">*</button>
+                <button id="numeroZero">0</button>                                       <button id="divisao">/</button>     <button id="resultado">=</button>
+            </div>
+        </div>
+
+        <h2 id="array"></h2>
+
+        <script src="index.js"></script>
+    </body>
+</html>
