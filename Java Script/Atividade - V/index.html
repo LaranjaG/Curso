@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade - V</title>
+</head>
+<body class="login">
+    <div id="loading" class="divLoad">
+        <img src="http://media.giphy.com/media/FwviSlrsfa4aA/giphy.gif"/>
+    </div>
+
+    <form method="GET" name="form" id="form">
+        <div>
+            <label for="login">Sith name:
+                <input type="text" id="login" name="login" class="inputDados" placeholder="Your sith name">
+            </label>
+        </div>
+
+        <div>
+            <label for="senha">Password:
+                <input type="password" id="senha" name="senha" class="inputDados" placeholder="password...">
+            </label>
+        </div>
+
+        <div>
+            <label for="connected">
+                <input type="checkbox" name="connected" class="connected" id="connected">
+                Keep connected
+            </label>
+        </div>
+        <div class="divErro">
+            <b class="erro">Login ou senha incorretos!</b>
+        </div>
+         <div class="submit">
+            <!-- <input type="button" class="submit" name="buscar" value="Buscar"> -->
+            <input type="submit" class="submit" value="Login">
+        </div>
+    </form>
+    <script type="module" src="index.js"></script>
+    
+</body>
+</html>

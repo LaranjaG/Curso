@@ -1,0 +1,84 @@
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade I -- parte IV</title>
+    
+        <style>
+            body{
+                background-color: rgba(33 , 1 , 73 , 0.77);
+            }
+            
+            input{
+                width: 20%; 
+                height: 35px; 
+                padding: 5px; 
+                margin-right: 7.5px; 
+                border-radius: 10px; 
+                text-align: right;
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 15px;
+                background-color: transparent;
+            }
+
+            input#inputValue{
+                border-color: white;
+            }
+
+            button {
+                padding: 10px;
+                font-size: 20px;
+                font-family: times;  
+                border-radius: 10px;
+                width: 15%;
+                margin: 1%; 
+                background-color: transparent;
+                color: white;
+                border-color: white;
+            }
+
+            textarea{   
+                font-family: times;
+                color: white;
+                outline: 0;
+                resize: none;
+                background: transparent;
+                margin-left: 35px;      
+            }
+        </style>
+    </header>
+
+    <body>
+        <div>
+            <input id="inputValue" type="text" value="" placeholder="Valor" readonly>
+        </div>
+
+        <div style="width: 30%; margin-left: 2%;">
+            <br>
+            <button id="numeroUm">1</button> 
+            <button id="numeroDois">2</button>
+            <button id="numeroTres">3</button>
+            <button id="c">C</button>
+            <br>
+            <button id="numeroQuatro">4</button>
+            <button id="numeroCinco">5</button>
+            <button id="numeroSeis">6</button>
+            <br>
+            <button id="numeroSete">7</button>
+            <button id="numeroOito">8</button>
+            <button id="numeroNove">9</button>
+            <br>
+            <button style="width: 50%;" id="numeroZero">0</button>
+            <br>
+            <button id="sacar" style="width: 50%;">Sacar</button>
+        </div>
+
+        <div>
+            <br>
+            <textarea cols="37" rows="5" id="saque" style="border: none;" readonly></textarea>
+        </div>
+        
+        <script src="index4.js"></script>
+    </body>
+</html>
