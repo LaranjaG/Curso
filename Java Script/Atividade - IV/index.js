@@ -1,26 +1,10 @@
 window.addEventListener('load',() => {
     let form = document.forms['cadastrar'];
-    /**
-     * Parabéns por ter se tornado papai, as segundas ficaram sem graça sem javascript, 
-     * mas tamo de volta, infelizmente já to com preguiça de fazer trabalho, mas esse fico bunitu
-     */
-
-    /**
-     * Consagrado fessor que esta corrigindo, eu não sei se ta td 100% nos conformes, mas até onde eu testei e revisei tá
-     * Eu já não sei que dia é hj, no horario de almoço jurava q era sexta, mas de descobri q era segunda, agr é 00:12 do dia 16
-     * comecei a estudar expressão regular não tinha nem retornado suas aulas, e eu não sei pq ainda to presa nesse trabalho, vc passou 
-     * um mais chato, gzuix só quero pedir demissão dessa vida de estudante, se puder ajudar com um 10 na atividde agradeço
-    */
     estados(form);//Preenche os options do select estado ao carregar a página
 
     document.querySelectorAll('.text').forEach(input => {
         input.addEventListener('blur', () => validarInputs(input));
     });
-
-    //No enuncido da a enteder que tem que usar blur e change, mas como aparentemente fazem a msm coisa...
-    // document.querySelectorAll('.text').forEach(input => {
-    //     input.addEventListener('change', () => validarInputs(input));
-    // });
     
     document.querySelectorAll('.text').forEach(input => {
         input.addEventListener('keyup', (event) => mascara(event, input));
@@ -74,15 +58,6 @@ window.addEventListener('load',() => {
 
 let estadosList = new Array(); //Lista de estados
 let cidadeList = new Array(); //Lista de cidades
-
-/**
- * é 03:09 da madrugada eu acabei de revisar minhas expressões dnv, se eu n fechar esse trabalho eu vou me sentir tapada pra crl, 
- * pq o nivel de detalhes q eu fiz pra n conseguir fazer o básico que a questão pedia, tomate cru, corrija esse trabalho com mt carinho, 
- * com mt bom humor e com td q a de bom, com toda benevolência que vc tem, eu li o enunciado, bunitim, mas as vezes meu cerebro da bug,
- * mas eu li e confirmei mais de uma vez, eu só to com sono e digitando bosta (o que é peculiar, pois eu tenho uma chance de pensar antes 
- * de fazer, mas eu me recuso a pensar, n depois de ter pensado tanto pra fazer esse trabalho)
- * #daDeizPaNoix  
- */
 
 //Validações de nome, idade, data de nascimento, cpf/cnpj, e-mail, telefone
 let expressao = {
