@@ -1,0 +1,302 @@
+body{
+   font-family: cursive;
+   color: white;
+   height: 100%;
+   background-color: black;
+}
+
+.loading{
+   background-image: linear-gradient(to bottom, #790000, black);
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   display: block;
+   text-align: center;
+}
+
+.loading .imgUm{
+   /* display: table-cell; */
+   margin-top: 2.5%;
+   width: relative;
+   height: 90%;
+   padding: 5px;
+}
+
+.loading .pessoa{
+   height: 50%;
+   width: relative;
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+}
+
+.body{
+   z-index: -1;
+   display: none;
+}
+
+nav{
+   border-bottom: 1px black solid;
+   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1);
+   background-image: linear-gradient(to top,  #18191a 1%, #790000);   
+   position: fixed;
+   width: 75%;
+   height: 80px;
+   margin-bottom: 90px;
+}
+
+nav img{
+   margin-left: 10px;
+   height: 90%;
+   width: relative;
+   float: left;
+   margin-top: 0.5%;
+   display: inline;
+}
+
+nav div{
+   margin-left: 21.5%;
+   text-align: center;
+   padding-top: 30px;
+   position: fixed;
+   /* background-color: black; */
+
+}
+
+nav label{
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: solid transparent ;
+   border-radius: 7.5px;
+
+}
+
+nav label:hover{
+   background-color: rgba(0, 0, 0, 0.30);
+}
+
+a{
+   text-decoration: none;
+}
+
+p{
+   margin: 0px;
+   padding-top: 7.5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   font-size: 14px;
+}
+
+i{
+   font-size: 11.5px;
+}
+
+dt, li{
+   margin-bottom: 10px;
+}
+
+dd{
+   margin-bottom: 10px;
+}
+
+footer{
+   position: static;
+   text-align: center;
+   background-color: rgba(255, 0, 0, 0.30);
+   background-image: linear-gradient(to bottom,  #18191a 1%, black ); 
+   height: 25px;
+   margin-top: 30px;
+   padding: 10px
+}
+
+footer p{
+   padding-top: 8px;
+}
+
+.left{
+   float: left;
+   width: 24.9%;
+   margin: auto;
+   top: 0px;
+   left: 0px;
+   position: fixed;
+   height: 100%;
+   background-image: linear-gradient(to top,  #18191a 88%, #790000 );   
+   color: #a0a0a0;
+}
+
+.right{
+   float: right;
+   width: 75%;
+   top: 0;
+   right: 0px;
+   position: absolute;
+   background-color: rgba(37, 35, 35, 0.98);
+   background-color: #18191a;
+   display: flex-end;
+}
+
+.text-block{
+   overflow: hidden;
+   display: flex
+}  
+.scroll{
+   display: flex;
+   overflow: hidden;
+   display: center;
+   margin-top: 90px;
+}
+
+.scroll input{
+   display: none;
+}
+
+.sections{
+   transition: all .4s;
+}
+.perfil{
+   padding: 15px;
+   padding-top: 45px;
+}
+
+.img-perfil{
+   width: 80px;
+   border-radius: 50%;
+   border: solid 1px black;
+}
+
+.informacoes{
+   margin-top: auto;
+   padding: 15px;
+   height: 100%;
+   font-family: monospace;
+   font-size: 15px;
+}
+
+.card{
+   width: 50%;
+   text-align: center;
+   border: solid transparent 1px;
+   margin: auto;
+   display: block;
+   border-radius: 15px;
+   margin-top: 2.5%;
+   margin-bottom: 0.5%;
+   background-color: #242526;
+   box-shadow: 0px 0px 15px rgba(5, 5, 5, 0.80);
+   color: white;
+   margin-left: 22.5%;
+}
+
+.card-div-bottom a{
+   color:white;
+}
+
+.img-card{
+   width: 100%;
+   padding-top: 5px;
+}
+
+.div-card-perfil{
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+.img-perfil-card{
+   width: 50px;
+   height: 50px;
+   border: solid 1px white;   
+   border-radius: 50px;
+   margin-bottom: 10px;
+   float: left;
+}
+
+.card-name{
+   float: left;
+   padding: 20px;
+}
+
+.div-card-text{
+   padding: 0 20px;
+}
+
+.card-div-bottom{
+   margin: 20px;
+   border-top: solid rgba(255, 255, 255, 0.30) 1px;
+   padding-top: 15px;
+   display: flex;
+}
+
+.link_logo{
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   margin: auto;
+}
+
+.logo{
+   margin-left: 5px;
+   height: 20px;
+}
+
+.menu{
+   float: right;
+   width: 15%;
+   text-align: center;
+   position: fixed;
+   bottom: 30px;
+   right: 20px;
+}
+
+.menu label{
+   padding: 5px;
+   padding-left: 0px;
+   display: block;
+   margin-bottom: 10px;
+   width: 80%;
+   margin: 5%;
+   margin-left: 15%;
+   right: 25px;
+   border-left: solid 2px white;
+}
+
+.current_section{
+   border-left: solid 2px #790000 !important;
+   background-color: rgba(255, 255, 255, 0.30);
+}
+
+.menu label:hover{
+   background-color: rgba(255, 0, 0, 0.10);
+}
+
+.end-left{
+   position: fixed;
+   bottom: 0px;
+   left: 0;
+   font-family: cursive;
+   font-size: 14px;
+   text-align: center;
+   width: 24.9%;    
+   background-image: linear-gradient(to bottom,  #18191a 62.5%, black );   
+}
+
+.div-end{
+   padding-top: 20px;
+   border-top: solid #a0a0a0 1px;
+   margin: 20px;
+}
+
+.end-left .icons-contato{
+   width: 16%;
+   height: relative;
+   padding: 1px;
+}
+
+.icons{
+   margin-left: 7px;
+   height: 22.5px;
+   margin-top: 2px;
+}
