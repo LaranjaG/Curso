@@ -1,0 +1,16 @@
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.exe
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.deps.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.runtimeconfig.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.runtimeconfig.dev.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\ref\firstTime.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\bin\Debug\net5.0\firstTime.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.csprojAssemblyReference.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.AssemblyInfoInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.AssemblyInfo.cs
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.csproj.CoreCompileInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\ref\firstTime.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\firstTime\obj\Debug\net5.0\firstTime.genruntimeconfig.cache
