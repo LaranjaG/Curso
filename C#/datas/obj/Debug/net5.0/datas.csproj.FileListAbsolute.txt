@@ -1,0 +1,16 @@
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.csprojAssemblyReference.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.AssemblyInfoInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.AssemblyInfo.cs
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.csproj.CoreCompileInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.exe
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.deps.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.runtimeconfig.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.runtimeconfig.dev.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\ref\datas.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\bin\Debug\net5.0\datas.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\ref\datas.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\datas\obj\Debug\net5.0\datas.genruntimeconfig.cache
