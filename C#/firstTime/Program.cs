@@ -19,6 +19,7 @@ namespace WorkSpace___RR //Name space é opcional
             Console.WriteLine("Com quebra de linha");
             Console.WriteLine("Variaveis:");
 
+            //Tipos de variaveis
             bool boolean = true;
             char genero = 'F';
             char letra = '\u0041';
@@ -59,20 +60,20 @@ namespace WorkSpace___RR //Name space é opcional
 
             Console.WriteLine("\n------------------\n");
 
-            foreach(object obj in list)
+            foreach(object obj in list) //La~o de repetição
                 Console.WriteLine(obj);
 
-            saidas();
+            saidas(); //Tipo de saidas de dados no console
 
             System.Console.WriteLine("\n---------------------------------");
 
-            diferencas();
+            diferencas(); //trabalhando com escrita nomeVariavel++ e ++nomeVariavel
 
-            cast();
+            cast(); //Trabalhando conversão com cast
 
-            entradaDados();
+            entradaDados(); //Trabalhando leitura de dados feita por console
             
-            randomMatriz();
+            randomMatriz(); //Trabalhando com matriz e números randomicos
         }
         
         static void saidas()
