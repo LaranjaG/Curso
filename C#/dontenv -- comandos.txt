@@ -1,2 +1,2 @@
-dontenv new console //Criar um novo projeto
-dontenv run //rodar programa
+dotnet new console //Criar um novo projeto
+dotnet run //rodar programa
