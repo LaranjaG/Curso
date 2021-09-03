@@ -1,6 +1,8 @@
 ﻿﻿using System; //Se tiver u use system não há necessidade de utilizar o system antes do console
 using System.Collections.Generic;
 using System.Globalization;
+using System.Threading;
+
 //shift + alt + f
 
 namespace WorkSpace___RR //Name space é opcional
@@ -69,8 +71,12 @@ namespace WorkSpace___RR //Name space é opcional
             cast();
 
             entradaDados();
+            
+            randomMatriz();
         }
-        static void saidas(){
+        
+        static void saidas()
+        {
             System.Console.WriteLine("\n----------------------\nSaida de dados:");
             double limitar = 10.1231321321321;
             Console.WriteLine(limitar.ToString("F2")); //Limitar a varivael para duas casas decimais    
@@ -85,7 +91,8 @@ namespace WorkSpace___RR //Name space é opcional
             Console.WriteLine(nomeOut + " tem " + idadeOut + " de idade e tem saldo igual a R$ " + saldoOut.ToString("F2"));
         }
 
-        static void diferencas(){
+        static void diferencas()
+        {
            //Diferença entre a++ e ++a 
             int a = 10;
             int b = a++; //Primeiro entrega o valor para b e depois soma +1 no a
@@ -98,7 +105,8 @@ namespace WorkSpace___RR //Name space é opcional
             System.Console.WriteLine($"c: {c} d: {d}");
         } 
 
-        static void cast(){
+        static void cast()
+        {
             //cast
             System.Console.WriteLine("\n--------------");
             int x = 20, y =  3;
@@ -107,7 +115,8 @@ namespace WorkSpace___RR //Name space é opcional
             System.Console.WriteLine($"Divisão com cast 20/3: {(double) x/y}");
         }
 
-        static void entradaDados(){
+        static void entradaDados()
+        {
             //ReadLine - ler do console;
 
             // string x;
@@ -123,6 +132,37 @@ namespace WorkSpace___RR //Name space é opcional
             System.Console.Write("Digite um nome: ");
             String name = Console.ReadLine(); //Ler linha
             System.Console.WriteLine($"Nome digitado pelo user: {name}");            
+        }
+        
+        public static void randomMatriz()
+        {
+            Random rand = new Random();
+
+            System.Console.Write("Numero de linhas: ");
+            int m = int.Parse(Console.ReadLine());
+            System.Console.WriteLine("\n");
+            System.Console.Write("Numero de colunas: ");
+            int n = int.Parse(Console.ReadLine());
+            int[,] matriz = new int [m,n];
+
+            for (int l = 0; l < m; l++) //l de linhas
+            {
+                for (int c = 0; c < n; c++) //c de colunas
+                {
+                    matriz[l, c] = rand.Next();
+                }
+            }
+
+            System.Console.WriteLine("Matriz");
+            for (int l = 0; l < m; l++) //l de linhas
+            {
+                for (int c = 0; c < n; c++) //c de colunas
+                {
+                    System.Console.Write($"{matriz[l, c]} ");
+                }
+
+                System.Console.WriteLine();
+            }
         }
     
     }
