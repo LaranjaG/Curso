@@ -1,0 +1,13 @@
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.exe
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.deps.json
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.runtimeconfig.json
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.runtimeconfig.dev.json
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.dll
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\bin\Debug\netcoreapp3.1\files.pdb
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.csprojAssemblyReference.cache
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.AssemblyInfoInputs.cache
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.AssemblyInfo.cs
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.csproj.CoreCompileInputs.cache
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.dll
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.pdb
+C:\Users\raysl\OneDrive\Área de Trabalho\Trabalho\C#\files\obj\Debug\netcoreapp3.1\files.genruntimeconfig.cache
