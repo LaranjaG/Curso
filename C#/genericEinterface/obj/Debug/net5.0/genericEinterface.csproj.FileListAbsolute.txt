@@ -1,0 +1,16 @@
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.csprojAssemblyReference.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.AssemblyInfoInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.AssemblyInfo.cs
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.csproj.CoreCompileInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.exe
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.deps.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.runtimeconfig.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.runtimeconfig.dev.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\ref\genericEinterface.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\bin\Debug\net5.0\genericEinterface.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\ref\genericEinterface.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\genericEinterface\obj\Debug\net5.0\genericEinterface.genruntimeconfig.cache
