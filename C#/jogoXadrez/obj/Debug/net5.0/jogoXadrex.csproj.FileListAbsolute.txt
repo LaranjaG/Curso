@@ -1,0 +1,16 @@
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.csprojAssemblyReference.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.AssemblyInfoInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.AssemblyInfo.cs
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.csproj.CoreCompileInputs.cache
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.exe
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.deps.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.runtimeconfig.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.runtimeconfig.dev.json
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\ref\jogoXadrex.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\bin\Debug\net5.0\jogoXadrex.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\ref\jogoXadrex.dll
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.pdb
+C:\Users\joaoj\Desktop\WorkSpace\C#\jogoXadrex\obj\Debug\net5.0\jogoXadrex.genruntimeconfig.cache
