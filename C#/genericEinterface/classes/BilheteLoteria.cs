@@ -12,7 +12,9 @@ namespace genericEinterface.classes
         {
             this.numerosBilhete = numerosBilhete;
         }
-
+        
+        
+        //        public int next() => numerosBilhete.Where(b => b.index == posicao);
         public int next() => numerosBilhete[posicao++];
         
         public bool hasNext() => (!(posicao >= numerosBilhete.Count || numerosBilhete[posicao] == null));
