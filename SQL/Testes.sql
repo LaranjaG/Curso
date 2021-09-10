@@ -7,8 +7,8 @@ CREATE TABLE fabricantes
 (
 	id int not null auto_increment,
 	fabricante varchar (60),
-    qtd_carros int,
-    PRIMARY KEY(id)
+    	qtd_carros int,
+    	PRIMARY KEY(id)
 );
 
 CREATE TABLE carros
